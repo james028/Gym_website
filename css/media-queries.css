@@ -1,5 +1,62 @@
 @media (min-width: 541px) and (max-width: 960px) {
-    
+     #main
+    {
+        min-height: 700px;
+        min-width: 500px;
+    }
+    .main-text
+    {
+        font-size: 60px;
+        margin: 220px 15px 10px;
+    }
+    .main-text-1
+    {
+        font-size: 20px;
+        margin: 0 40px 50px;
+    }
+    .btn-join
+    {
+        width: 220px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .world-main
+    {
+        margin: 140px auto 120px;
+    }
+    .title
+    {
+        font-size: 34px;
+    }
+    .world-text
+    {
+        font-size: 18px;
+        margin: 50px 30px 40px;
+    }
+    .fusion-row
+    {
+        margin: 120px auto 90px;
+    }
+    .fusion-icon .icon .fa
+    {
+        padding-top: 4%;
+    }
+    .fusion-col
+    {
+        margin: 30px auto;
+    }
+    .fusion-text-2
+    {
+        margin: 0 50px;
+    }
+    .perf-col
+    {
+        text-align: center;
+    }
+    .btn-per
+    {
+        margin: 50px auto 20px;
+    }
 }
 
 
@@ -8,7 +65,7 @@
 @media (max-width: 540px) {
     #main
     {
-        min-height: 500px;
+        min-height: 600px;
         min-width: 300px;
     }
     .main-text
@@ -47,7 +104,7 @@
     }
     .fusion-icon .icon .fa
     {
-        padding-top: 6%;
+        padding-top: 8%;
     }
     .fusion-col
     {
@@ -56,5 +113,13 @@
     .fusion-text-2
     {
         margin: 0 20px;
+    }
+    .perf-col
+    {
+        text-align: center;
+    }
+    .btn-per
+    {
+        margin: 50px auto 20px;
     }
 }
