@@ -1,0 +1,160 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    
+}
+#main
+{
+    background-image: url('../img/main/home-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-width: 200px;
+    min-height:670px;
+    max-width: 100%;
+    max-height:100%;
+    margin: 0 auto;
+    display: block;
+    overflow: auto;
+    color: #ffffff;
+    
+}
+.main-text
+{
+    font-size: 100px;
+    line-height: 132px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 250px auto 30px;
+}
+.main-text-1
+{
+    font-size: 22px;
+    line-height: 24px;
+    margin: 0 auto 70px;
+    letter-spacing: 1px;
+}
+.main-btn a
+{
+    color: #fff;
+}
+.btn-join
+{
+    background: transparent;
+    width: 250px;
+    height: 70px;
+    border: 2px solid #fff;
+    box-shadow: none;
+    font-size: 24px;
+    text-transform: uppercase; 
+}
+
+
+/* Sekcja world */
+#world
+{
+    background: #25292B;
+}
+.world-main
+{
+    color: #fff;
+    margin: 200px auto 180px;
+}
+.title
+{
+    font-size: 40px;
+    margin: 50px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+.title:after
+{
+    content: " \f004  \f004";
+    font-family: FontAwesome;
+    font-size: 22px;
+    color: #EE6059;
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    transform: translate(-50%, -50%);
+}
+.world-text
+{
+    color: #8CA9A9;
+    font-size: 18px;
+    margin: 80px auto 70px;
+    letter-spacing: 1px;
+}
+
+
+/* Sekcja fusion */
+#fusion
+{
+    background: #121315;
+    border-top: 1px solid #fff;
+}
+.fusion-row
+{
+    text-align: center;
+    margin: 160px auto 140px;
+}
+.fusion-icon
+{
+    color: #fff;
+}
+.fusion-icon:hover
+{
+    color: #EE6059;
+}
+
+.fusion-icon .icon .fa
+{
+    font-size: 50px;
+    border: 2px solid #EE6059;;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding-top: 10%;
+    
+}
+.fusion-icon h4
+{
+    margin: 25px auto 35px;
+    position: relative;
+    font-weight: bold;
+   
+}
+.fusion-icon:hover
+{
+     color: #EE6059;
+}
+.fusion-icon h4:after
+{
+   content: " \f00d";
+    font-family: FontAwesome;
+    font-size: 17px;
+    color: #EE6059;
+    position: absolute;
+    left: 50%;
+    top: 170%;
+    transform: translate(-50%, -50%); 
+}
+.fusion-text
+{
+    margin-top: 45px;
+}
+.fusion-text .fusion-text-2
+{
+    color: #aaa9a9;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
