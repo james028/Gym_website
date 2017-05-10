@@ -6,5 +6,55 @@
 
 
 @media (max-width: 540px) {
-    
+    #main
+    {
+        min-height: 500px;
+        min-width: 300px;
+    }
+    .main-text
+    {
+        font-size: 46px;
+        margin: 150px 15px 20px;
+         line-height: 60px;
+    }
+    .main-text-1
+    {
+        font-size: 16px;
+        margin: 0 40px 30px;
+    }
+    .btn-join
+    {
+        width: 220px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .world-main
+    {
+        margin: 130px auto 110px;
+    }
+    .title
+    {
+        font-size: 26px;
+    }
+    .world-text
+    {
+        font-size: 15px;
+        margin: 50px 30px 40px;
+    }
+    .fusion-row
+    {
+        margin: 120px auto 90px;
+    }
+    .fusion-icon .icon .fa
+    {
+        padding-top: 6%;
+    }
+    .fusion-col
+    {
+        margin: 30px auto;
+    }
+    .fusion-text-2
+    {
+        margin: 0 20px;
+    }
 }

@@ -74,6 +74,7 @@ body
     text-transform: uppercase;
     font-weight: bold;
     position: relative;
+    color: #fff;
 }
 .title:after
 {
@@ -157,4 +158,45 @@ body
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 25px;
+}
+
+
+/* Sekcja permorm */
+#perform
+{
+    background: #1E2123;
+}
+.perf-col
+{
+    margin: 20px auto;
+}
+.perf-col img
+{
+    max-width: 100%;
+}
+.perform-btn
+{
+    margin: 80px auto 100px;
+}
+.btn-per
+{
+    width: 250px;
+    height: 60px;
+    background: transparent;
+    font-size: 20px;
+    border: 2px solid #fff;
+    box-shadow: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn-per:hover
+{
+    color: #000;
+    background: #fff;
+    border: 2px solid #000;
+}
+.perf-col-title .title
+{
+    margin: 100px 0 120px;
+    text-align: center;
 }
