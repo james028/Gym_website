@@ -1,4 +1,4 @@
 # Gym_website
 
 
-demo:
+demo: https://james028.github.io/Gym_website/
