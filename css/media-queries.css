@@ -57,9 +57,45 @@
     {
         margin: 50px auto 20px;
     }
+    .ali-text-1
+    {
+        font-size: 34px;
+    }
+    .ali-text-2
+    {
+        font-size: 20px;
+    }
 }
 
 
+@media (max-width: 780px) {
+    .row-t
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .trainers-col
+    {
+        margin: 40px 10px;
+    }
+    .row-r
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .result-right-1
+    {
+        margin-top: 0;
+    }
+    .result-left-1
+    {
+        margin-bottom: 0;
+    }
+    .result-text
+    {
+        margin: 70px 40px 50px;
+    }
+}
 
 
 @media (max-width: 540px) {
@@ -121,5 +157,29 @@
     .btn-per
     {
         margin: 50px auto 20px;
+    }
+    .ali-text-1
+    {
+        font-size: 26px;
+    }
+    .ali-text-2
+    {
+        font-size: 16px;
+    }
+    .result-text-1
+    {
+        font-size: 22px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+    .result-text-2
+    {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .result-text-3
+    {
+        font-size: 20px;
+        margin-top: 20px;
     }
 }
