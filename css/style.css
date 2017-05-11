@@ -455,3 +455,47 @@ body
     text-transform: uppercase;
     margin-top: 20px;
 }
+
+
+
+/* Skecja join */
+.row-j
+{
+    margin: 30px auto 100px;
+}
+#join
+{
+    background: #25292B;
+}
+.join-text
+{
+    margin: 100px auto 100px;
+    color: #fff;
+}
+.join-text-1
+{
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.join-form
+{
+    display: flex;
+    flex-direction: column;
+}
+.join-form input, .join-form select
+{
+    height: 50px;
+    margin: 0 0 20px;
+    padding-left: 15px;
+    border-radius: none;
+}
+.join-button
+{
+    height: 50px;
+    box-shadow: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    background: #EE6059;
+    color: #fff;
+    border: none;
+}
