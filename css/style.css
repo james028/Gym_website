@@ -499,3 +499,100 @@ body
     color: #fff;
     border: none;
 }
+
+
+
+/* Sekcja ftr */
+#ftr
+{
+    background: #1E2123;
+}
+.row-f
+{
+    margin: 120px auto;
+}
+.ftr-title
+{
+    color: #6c777b;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.ftr-text
+{
+    color: #fff;
+    font-size: 16px;
+}
+.ftr-hours
+{
+    font-weight: 700;
+    font-size: 18px;
+}
+.ftr-bott
+{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+
+/* Footer */
+footer
+{
+    background: #000;
+}
+.row-footer
+{
+    margin: 40px auto 20px;
+}
+.row-footer p
+{
+    color: #fff;
+    font-size: 16px;
+}
+.foot-social .fa
+{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background: #EE6059;
+    position: relative;
+}
+.fa-facebook::before, .fa-twitter::before, .fa-instagram::before
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+
+/* Button up */
+.up
+{
+    width: 50px; 
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+    z-index: 100;
+    opacity: 1;
+    
+}
+.up::before
+{
+    content: "\f0d8";
+    font-family: FontAwesome;
+    font-size: 30px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.up.up-opa
+{
+    opacity: 0;
+}
+
