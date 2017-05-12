@@ -75,6 +75,14 @@
     font-size: 16px;
     text-align: center;
     }
+    .col-f
+    {
+        margin: 20px auto;
+    }
+    .row-footer p
+    {
+        font-size: 14px;
+    }
 }
 
 
@@ -205,5 +213,31 @@
     .join-text-1
     {
     font-size: 17px;
+    }
+    .row-f
+    {
+        margin: 80px auto;
+    }
+    .ftr-title
+    {
+    font-size: 20px;
+    }
+    .ftr-text
+    {
+    color: #fff;
+    font-size: 14px;
+    }
+    .ftr-hours
+    {
+    font-size: 16px;
+    }
+    .ftr-bott
+    {
+    margin-bottom: 30px;
+        border-bottom: none;
+    }
+    .row-footer p
+    {
+        font-size: 12px;
     }
 }

@@ -5,7 +5,7 @@ var btn_up = document.querySelector(".up");
 function animate() {
     
     if (window.scrollY > 0) {
-        scrollBy(0, -20);
+        scrollBy(0, -40);
         setTimeout(animate,1);
     }
 }
