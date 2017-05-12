@@ -1,21 +1,31 @@
+var btn_up = document.querySelector(".up");
 
-function add() {
-var btn_up = document.createElement("button");
-btn_up.classList.add("up", "up-opa");
-document.body.appendChild(btn_up);
-return btn_up;
+ 
+
+function animate() {
+    
+    if (window.scrollY > 0) {
+        scrollBy(0, -20);
+        setTimeout(animate,1);
+    }
 }
 
 
- var btn_add = function add();
+
+btn_up.addEventListener("click", function(e) {
+    e.preventDefault();
+    
+    animate();
+    
+}, false);
+
 
 window.addEventListener("scroll", function() {
     
-   
-    
-    if (this.scrollY >= 400) {
-        add_btn.classList.remove("up-opa");
+    if (this.scrollY >= 500) {
+        btn_up.classList.remove("up-opa");
     } else {
-        document.body.classList.add("up-opa");
+        btn_up.classList.add("up-opa");
     }
+    
 }, false);

@@ -556,7 +556,7 @@ footer
     background: #EE6059;
     position: relative;
 }
-.fa-facebook::before, .fa-twitter::before, .fa-instagram::before
+.fa-facebook1::before, .fa-twitter1::before, .fa-instagram1::before
 {
     position: absolute;
     left: 50%;
