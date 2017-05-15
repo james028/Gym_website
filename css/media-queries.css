@@ -83,6 +83,19 @@
     {
         font-size: 14px;
     }
+    .overlay
+    {
+        background: blue;
+        width: 70%;
+        height: 70%;
+    }
+    .nav-button
+    {
+        position: absolute;
+        top: 0;
+        right: 30px;
+        
+    }
 }
 
 
