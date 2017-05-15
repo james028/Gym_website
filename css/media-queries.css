@@ -85,16 +85,25 @@
     }
     .overlay
     {
-        background: blue;
-        width: 70%;
-        height: 70%;
-    }
-    .nav-button
-    {
+        width: 90%;
+        height: 400px;
+        margin: 0 auto;
         position: absolute;
-        top: 0;
-        right: 30px;
-        
+        top: 100px;
+        left: 25px;
+    }
+    .nav-overlay
+    {
+        padding: 80px 0;
+        width: 70%;
+    }
+    .nav-overlay ul
+    {
+        padding: 5px;
+    }
+    .nav-overlay ul li a
+    {
+        font-size: 22px; 
     }
 }
 
@@ -252,5 +261,34 @@
     .row-footer p
     {
         font-size: 12px;
+    }
+    .button
+    {
+        font-size: 36px;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    .overlay
+    {
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+        position: absolute;
+        top: 80px;
+        left: 25px;
+    }
+    .nav-overlay
+    {
+        padding: 50px 0;
+        width: 70%;
+    }
+    .nav-overlay ul
+    {
+        padding: 5px;
+    }
+    .nav-overlay ul li a
+    {
+        font-size: 18px; 
     }
 }

@@ -598,7 +598,7 @@ footer
 
 
 /* nav-button */
-.nav-button
+/*.nav-button
 {
     position: absolute;
     top: 30px;
@@ -642,6 +642,23 @@ footer
     color: darkgreen;
 }
 .btn-open::after
+ransform: translate(-50%, -50%);  
+}*/
+.button 
+{
+    
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    z-index: 999;
+    
+}
+.button a 
+{
+    text-decoration: none;
+}
+.btn-open:after 
 {
     content: "\f0c9";
     font-family: FontAwesome;
@@ -651,8 +668,9 @@ footer
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);  
-}
-.btn-close::after
+    transition: color .2s;
+} 
+.btn-close:after 
 {
     content: "\f00d";
     font-family: FontAwesome;
@@ -662,4 +680,48 @@ footer
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);  
+    transition: color .2s;
+} 
+.overlay 
+{
+    width: 70%;
+    height: 500px;
+    background: #EE6059;
+    opacity: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 99;
 }
+.nav-container 
+{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.nav-overlay 
+{
+    padding: 100px 0px;
+    width: 24%;
+    display: inline-block;
+}
+.nav-overlay ul 
+{
+    
+    padding: 20px;
+    list-style: none;
+    
+}
+.nav-overlay ul li a 
+{
+    
+    color: #f0f0f0;
+    font-size: 26px;
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    transition: color .2s;
+    
+}
+
