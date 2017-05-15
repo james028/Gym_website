@@ -708,14 +708,11 @@ ransform: translate(-50%, -50%);
 }
 .nav-overlay ul 
 {
-    
     padding: 20px;
     list-style: none;
-    
 }
 .nav-overlay ul li a 
 {
-    
     color: #f0f0f0;
     font-size: 26px;
     display: block;
