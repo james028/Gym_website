@@ -83,6 +83,15 @@
     {
         font-size: 14px;
     }
+    .row-f 
+    {
+        margin: 80px auto;
+    }
+    .ftr-bott
+    {
+    margin-bottom: 30px;
+     border-bottom: none;
+    }
     .overlay
     {
         width: 90%;
@@ -256,7 +265,7 @@
     .ftr-bott
     {
     margin-bottom: 30px;
-        border-bottom: none;
+     border-bottom: none;
     }
     .row-footer p
     {
