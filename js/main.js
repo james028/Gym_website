@@ -45,8 +45,6 @@ function toggleMenu(e) {
     
     var divOverlay = document.getElementsByClassName("overlay")[0];
     var speed = 10;
-    
-    
     var eventTarget = e.target;
     
     if( eventTarget.className == "btn-open" ) {
@@ -101,10 +99,23 @@ function fadeOut(elem, speed) {
 }
 
 
+// scroll do sekcji
 
 
-
-
+( function( $ ) {
+	'use strict';
+	
+	$( '.scrollTo' ).on( 'click', function(e) {
+		e.preventDefault();
+		var href = $( this ).attr( 'href' );
+		$( 'html, body' ).animate( { 
+			scrollTop: $( href ).offset().top + 'px'
+		}, 1500, function() {
+			location.hash = href;
+		} ); 
+	} );
+	
+} ( jQuery ) );
 
 
 
