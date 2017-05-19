@@ -163,7 +163,7 @@ body
 /* Sekcja permorm */
 #perform
 {
-    background: #1E2123;
+    background: #25292B;
 }
 .perf-col
 {
@@ -213,41 +213,42 @@ body
 }
 .streng-1, .streng-2, .streng-3, .streng-4
 {
-
+    height: 400px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
 }
 .streng-1
 {
     background-image: url('../img/streng/str1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
 .streng-2
 {
     background-image: url('../img/streng/str2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
 .streng-3
 {
     background-image: url('../img/streng/str3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
 .streng-4
 {
     background-image: url('../img/streng/str4.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 .streng-text
 {
     margin: 230px auto 0;
     color: #fff;
     text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .streng-text .text-1
 {
@@ -260,6 +261,7 @@ body
     font-size: 16px;
     font-weight: 300;
     margin: 30px 20px 0;
+    line-height: 2;
 }
 
 
