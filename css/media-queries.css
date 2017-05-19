@@ -302,10 +302,11 @@
     }
      .streng-text .text-1
     {
-        font-size: 28px;
+        font-size: 26px;
     }
     .streng-text .text-2
     {
         font-size: 14px;
+        margin: 20px 10px 0;
     }
 }
